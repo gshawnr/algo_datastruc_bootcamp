@@ -7,6 +7,16 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
-function palindrome(str) {}
+function palindrome(str) {
+  // Best Solution
+  //   return str === str.split("").reverse().join("");
+
+  // Another solution using array helper "every"
+  // Issue: this solutions does twice the work that is required since it checks every value to the end
+  // when only half way is needed.
+  return str.split("").every((char, i) => {
+    return char === str[str.length - 1 - i];
+  });
+}
 
 module.exports = palindrome;
