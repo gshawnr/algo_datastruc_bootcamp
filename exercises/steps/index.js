@@ -17,41 +17,10 @@
 //       '### '
 //       '####'
 
-////////// MY SOLUTION //////////////////
-// function steps(n) {
-//   for (let i = 1; i <= n; i++) {
-//     let sym = stringGenerator(i, "#");
-//     let space = stringGenerator(n - i, " ");
+// SOLUTIONS
+// Iterative
+// Recursive
 
-//     console.log(sym + space);
-//   }
-// }
-
-// const stringGenerator = (num, type) => {
-//   let res = "";
-//   for (let i = 1; i <= num; i++) {
-//     res = res + type;
-//   }
-
-//   return res;
-// };
-///////////////////////////////////////////
-
-// SOLUTION 2
-// function steps(n) {
-//   for (let row = 0; row < n; row++) {
-//     let stair = "";
-//     for (let col = 0; col < n; col++) {
-//       if (col <= row) {
-//         stair += "#";
-//       } else stair += " ";
-//     }
-
-//     console.log(stair);
-//   }
-// }
-
-// SOLUTION 3 RECURSION
 function steps(n, row = 0, stair = "") {
   // base case row === n
   if (row === n) {

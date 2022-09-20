@@ -12,26 +12,9 @@
 //   l.insertLast('c')
 //   midpoint(l); // returns { data: 'b' }
 
-function midpoint(list) {
-  // SOLUTION USING LIST PROPERTIES
-  let slow = list.head;
-  let fast = list.head;
+// Use properties for a solution
+// Use methods for another solution
 
-  while (fast.next && fast.next.next) {
-    slow = slow.next;
-    fast = fast.next.next;
-  }
-
-  return slow;
-
-  // SOLUTION USING LIST METHODS
-  //   let arr = [];
-
-  //   for (const node of list) {
-  //     arr.push(node);
-  //   }
-
-  //   return arr[Math.ceil(arr.length / 2 - 1)];
-}
+function midpoint(list) {}
 
 module.exports = midpoint;

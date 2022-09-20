@@ -13,53 +13,6 @@
 //     [11, 16, 15, 6],
 //     [10,  9,  8, 7]]
 
-function matrix(n) {
-  // solution key: use 4 for loops inside of while to write complete sections: top row, right column, bottom row, left column
-
-  let result = [];
-
-  // use initial loop to add required arrays
-  for (let i = 0; i < n; i++) {
-    result.push([]);
-  }
-
-  let startRow = 0;
-  let endRow = n - 1;
-  let startCol = 0;
-  let endCol = n - 1;
-  let value = 1;
-
-  while (startRow <= endRow && startCol <= endCol) {
-    // top row
-    for (let i = startCol; i <= endCol; i++) {
-      result[startRow][i] = value;
-      value++;
-    }
-    startRow++;
-
-    // right col
-    for (let i = startRow; i <= endRow; i++) {
-      result[i][endCol] = value;
-      value++;
-    }
-    endCol--;
-
-    // bottom row
-    for (let i = endCol; i >= startCol; i--) {
-      result[endRow][i] = value;
-      value++;
-    }
-    endRow--;
-
-    // left col
-    for (let i = endRow; i >= startRow; i--) {
-      result[i][startCol] = value;
-      value++;
-    }
-    startCol++;
-  }
-
-  return result;
-}
+function matrix(n) {}
 
 module.exports = matrix;
