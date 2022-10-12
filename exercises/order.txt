@@ -1,0 +1,19 @@
+GOAL IS TO BE ABLE TO COMPLETE EACH PHASE IN UNDER 10 MIN
+PHASE 1
+capitalize
+chunk
+fib
+fizzbuzz
+maxchar
+palindrome
+reverseint
+reversestring
+vowels
+anagrams
+
+PHASE 2
+linkedList
+queue
+stack
+qfroms
+// add more after
