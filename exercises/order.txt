@@ -16,4 +16,18 @@ linkedList
 queue
 stack
 qfroms
-// add more after
+midpoint
+fromlast
+events
+circular
+validate
+weave
+levelwidth
+
+PHASE 3
+bst
+matrix
+pyramid
+steps
+sorting
+tree
