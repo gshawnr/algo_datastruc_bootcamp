@@ -20,14 +20,14 @@ midpoint
 fromlast
 events
 circular
-validate
+steps
 
 PHASE 3
 tree
 bst
 matrix
+validate
 pyramid
-steps
 sorting
 weave
 levelwidth

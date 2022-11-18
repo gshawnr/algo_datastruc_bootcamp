@@ -17,25 +17,6 @@
 //       '### '
 //       '####'
 
-// SOLUTIONS
-// Iterative
-// Recursive
-
-function steps(n, row = 0, stair = "") {
-  // base case row === n
-  if (row === n) {
-    return;
-  }
-
-  // if stair is complete log it and make recursive call
-  if (stair.length === n) {
-    console.log(stair);
-    return steps(n, row + 1);
-  }
-
-  // add # or " " to stair and call
-  let add = stair.length <= row ? "#" : " ";
-  steps(n, row, stair + add);
-}
+function steps(n, row = 0, stair = "") {}
 
 module.exports = steps;
