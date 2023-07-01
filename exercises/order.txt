@@ -1,0 +1,34 @@
+GOAL IS TO BE ABLE TO COMPLETE EACH PHASE IN UNDER 2H
+PHASE 1
+capitalize
+chunk
+fib
+fizzbuzz
+maxchar
+maxints
+palindrome
+reverseint
+reversestring
+vowels
+anagrams
+
+PHASE 2
+linkedList
+queue
+stack
+qfroms
+midpoint
+fromlast
+events
+circular
+steps
+
+PHASE 3
+tree
+bst
+matrix
+validate
+pyramid
+sorting
+weave
+levelwidth
