@@ -5,6 +5,7 @@ chunk
 fib
 fizzbuzz
 maxchar
+maxints
 palindrome
 reverseint
 reversestring
