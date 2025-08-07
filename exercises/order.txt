@@ -11,6 +11,8 @@ reverseint
 reversestring
 vowels
 anagrams
+logAnalysis
+grouptransations
 
 PHASE 2
 linkedList
