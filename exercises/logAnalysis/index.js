@@ -8,9 +8,12 @@ action will be either "sign-in" or "sign-out"
 Given a log with entries in no particular order, return an array of strings that denote user_id's of 
 users who signed out in maxSpan seconds or less after signing in. 
 
+A user may only sign-in (or out) once
+
+Ex Input: ["23 424 sign-in", "23 500 sign-out"], 30
+
 Return: a string array of user id's, sorted ascending by numeric value
 */
 
-// "id timestamp action"
 function logAnalysis(logs, maxSpan) {}
 module.exports = logAnalysis;
