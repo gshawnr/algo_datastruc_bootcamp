@@ -11,5 +11,6 @@ users who signed out in maxSpan seconds or less after signing in.
 Return: a string array of user id's, sorted ascending by numeric value
 */
 
+// "id timestamp action"
 function logAnalysis(logs, maxSpan) {}
 module.exports = logAnalysis;
